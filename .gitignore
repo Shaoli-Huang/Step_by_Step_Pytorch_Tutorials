@@ -1,3 +1,6 @@
 
 runs
 mnist_train
+*.gv
+*.pdf
+*.pt
