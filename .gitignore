@@ -4,3 +4,4 @@ mnist_train
 *.gv
 *.pdf
 *.pt
+.ipynb_checkpoints
