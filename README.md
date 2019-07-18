@@ -1,4 +1,4 @@
-# Pytorch_Tutorials
+# Step_By_Step_Pytorch_Tutorials
 
 
 
@@ -20,7 +20,7 @@
     python -c 'import torch; print(torch.rand(2,3));print(torch.cuda.is_available())'
     ```
 
-4. Install tensorboard and pytorch tensorboard utils
+4. Install tensorboard and pytorch tensorboard utils (optional)
 
     ```
     pip install tensorboard
@@ -31,7 +31,7 @@
     `python tensorboard_test_script.py`
     Run `tensorboard --logdir=runs`  and type http://localhost:6006/ in your browser to access the Tensorboard
     
-5. Install PyTorchViz
+5. Install PyTorchViz (optional)
 
     ```
     pip install torchviz
@@ -45,6 +45,12 @@
     ```
 
     Run `source activate pytorch_env && jupyter notebook` to activate conda enviroment and assess the Jupyter notebook
+
+7. Clone the tutorial repository
+
+'''
+git clone https://github.com/Shaoli-Huang/Step_by_Step_Pytorch_Tutorials.git
+'''
 
 
 
