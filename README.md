@@ -11,7 +11,7 @@
 2. Create and activate a conda enviroment  
 
     ```
-    conda create -n pytorch_env
+    conda create -n pytorch_env && source activate pytorch_env
     ```
 3. Install Pytorch and verify installation success
 
@@ -44,13 +44,14 @@
     conda install nb_conda
     ```
 
-    Run `source activate pytorch_env && jupyter notebook` to activate conda enviroment and assess the Jupyter notebook
+    Run `jupyter notebook` to activate conda enviroment and assess the Jupyter notebook
 
 7. Clone the tutorial repository
 
-'''
+```
 git clone https://github.com/Shaoli-Huang/Step_by_Step_Pytorch_Tutorials.git
-'''
+
+```
 
 
 
